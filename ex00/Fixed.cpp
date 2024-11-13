@@ -6,7 +6,7 @@
 /*   By: relamine <relamine@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 00:56:28 by relamine          #+#    #+#             */
-/*   Updated: 2024/11/09 02:43:42 by relamine         ###   ########.fr       */
+/*   Updated: 2024/11/13 12:51:16 by relamine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ Fixed::Fixed(const Fixed& f)
 Fixed& Fixed::operator=(const Fixed& f)
 {
 	std::cout << "Copy assignment operator called" << std::endl;
-	this->fixed_point = f.fixed_point;
+	setRawBits(f.getRawBits());
 	return (*this);
 }
 
