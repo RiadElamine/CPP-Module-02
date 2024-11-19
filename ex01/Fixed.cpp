@@ -6,12 +6,11 @@
 /*   By: relamine <relamine@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 00:56:28 by relamine          #+#    #+#             */
-/*   Updated: 2024/11/17 05:18:01 by relamine         ###   ########.fr       */
+/*   Updated: 2024/11/19 02:21:31 by relamine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Fixed.hpp"
-#include <cmath>
 
 const int Fixed::fractional_bits = 8;
 
