@@ -6,7 +6,7 @@
 /*   By: relamine <relamine@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 03:03:09 by relamine          #+#    #+#             */
-/*   Updated: 2024/11/19 02:20:57 by relamine         ###   ########.fr       */
+/*   Updated: 2025/01/10 01:39:41 by relamine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 #pragma once
 
 #include <iostream>
-#include <fstream>
 #include <cmath>
 
 

@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*    bsp.cpp                                           :+:      :+:    :+:   */
+/*   bsp.cpp                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: relamine <relamine@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/19 02:17:56 by relamine          #+#    #+#             */
-/*   Updated: 2024/11/19 08:12:15 by relamine         ###   ########.fr       */
+/*   Updated: 2025/01/10 01:40:54 by relamine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,8 @@ bool bsp( Point const a, Point const b, Point const c, Point const point)
 	float A2 = area (a, point, b);
 	
 	float A3 = area (point, c, b);
-		
-	return (A == A1 + A2 + A3);
+	
+	bool on_edge = (A1 == 0.0f || A2 == 0.0f || A3 == 0.0f);
+
+	return (A == A1 + A2 + A3 && !on_edge);
 }

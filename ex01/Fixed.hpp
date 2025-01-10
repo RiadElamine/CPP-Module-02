@@ -6,14 +6,13 @@
 /*   By: relamine <relamine@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 00:56:30 by relamine          #+#    #+#             */
-/*   Updated: 2024/11/19 02:21:28 by relamine         ###   ########.fr       */
+/*   Updated: 2025/01/10 01:39:04 by relamine         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 
 #include <iostream>
-#include <fstream>
 #include <cmath>
 
 
